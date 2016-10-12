@@ -7,7 +7,7 @@
         <li><a href="/">Home</a></li>
         <li class="active"><a href="{% url 'play' %}">Play</a></li>
         <li><a href="{% url 'display_leaderboard' %}">Leaderboard</a></li>
-        <li><a href="http://ingeniushack.com" target="_blank">inGenius2016</a></li>
+        <li><a href="http://www.maayafest.com" target="_blank">Maaya 2016</a></li>
 {% endblock %}
 
 {% block content %}
@@ -15,10 +15,10 @@
         <h1 align="center">Congrats!</h1>
         <br>
         <div>
-            <h3 align="justify">Kudos <strong>{{ request.user.username }}</strong> for completing The Pursuit! Thanks for taking part and we hope to see you next time. But before you leave we urge you to register for inGenius 2016. You'll have an even better experience there!</h3>
+            <h3 align="justify">Kudos <strong>{{ request.user.username }}</strong> for completing SurfIT! Thanks for taking part and we hope to see you next time. But before you leave we urge you to visit our official site and download the app for Maaya 2016!</h3>
             <br>
             <div class="text-center">
-                <a href="http://ingeniushack.com/register" target="_blank" class="btn btn-primary btn-lg">Register</a>
+                <a href="https://play.google.com/store/apps/details?id=com.manas.manasmb.maaya&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank" class="btn btn-primary btn-lg">Download</a>
             </div>
             <br>
             <img class='img-responsive' src="{% static 'images/fireworks.jpg' %}"><br>
