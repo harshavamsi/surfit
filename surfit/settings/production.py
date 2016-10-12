@@ -12,4 +12,4 @@ DEBUG = True
 
 
 
-STATIC_ROOT = '/home/surf/surfit/static'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
