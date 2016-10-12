@@ -12,4 +12,4 @@ DEBUG = True
 
 
 
-STATIC_ROOT = os.environ.get('STATIC_ROOT', None)
+STATIC_ROOT = '/home/surf/surfit/static'
