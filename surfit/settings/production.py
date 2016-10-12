@@ -15,7 +15,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'OPTIONS': {
-            'read_default_file': '/home/curious/surfit_db.cnf',
+            'read_default_file': '/home/surfit_db.cnf',
         },
     }
 }
