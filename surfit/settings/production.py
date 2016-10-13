@@ -2,7 +2,9 @@ import os
 
 from surfit.settings.base import *
 
-DEBUG = True
+DEBUG = False
+
+ALLOWED_HOSTS = ['surfit.maayafest.com','mithril.maayafest.com','localhost']
 
 
 
