@@ -136,5 +136,5 @@ EMAIL_USE_TLS = True
 
 # Custom settings
 
-MAX_LEVELS = os.environ.get("MAX_LEVELS",15)
+MAX_LEVELS = os.environ.get("MAX_LEVELS",10)
 LOGIN_REDIRECT_URL = "/"
