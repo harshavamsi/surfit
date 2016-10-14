@@ -3,7 +3,9 @@ import os
 from surfit.settings.base import *
 
 DEBUG = False
-ALLOWED_HOSTS=['139.59.32.188','surfit.maayafest.com']
+
+ALLOWED_HOSTS = ['surfit.maayafest.com','mithril.maayafest.com','localhost']
+
 
 
 
@@ -15,7 +17,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'OPTIONS': {
-            'read_default_file': '/home/curious/thepursuit_db.cnf',
+            'read_default_file': '/home/curious/surfit_db.cnf',
         },
     }
 }
